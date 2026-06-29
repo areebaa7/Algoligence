@@ -4,6 +4,9 @@ import Services from "../components/Services";
 import TechStack from "../components/Techstack";
 import Workflow from "../components/Workflow";
 import WhyChooseUs from "../components/WhyChooseUs";
+import Protfolio from "../components/Protfolio";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -13,7 +16,10 @@ export default function Home() {
       <Services />
       <TechStack />
       <Workflow />
+      <Protfolio />
       <WhyChooseUs />
+      <Testimonials/>
+       <Footer/>
     </>
   );
 }

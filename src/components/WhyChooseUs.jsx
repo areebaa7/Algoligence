@@ -151,7 +151,7 @@ export default function WhyChooseUs() {
 
   return (
 
-<section className="py-16 bg-white">
+<section className="py-10 lg:py-14 bg-white">
 
 
 <div className="max-w-7xl mx-auto px-6">
@@ -159,7 +159,7 @@ export default function WhyChooseUs() {
 
 {/* Heading */}
 
-<div className="text-center mb-12">
+<div className="text-center mb-8">
 
 
 <motion.h2
